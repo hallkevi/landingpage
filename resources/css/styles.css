@@ -1,0 +1,316 @@
+/* BASIC SETUP */
+
+body {
+    color: #c6c2b8;
+    background-color: #000000;
+    font-family: 'Encode Sans Semi Expanded';font-size: 18px;
+}
+
+header {
+    background-image: linear-gradient(rgba(2, 2, 2, 0), rgba(2, 2, 2, 0.5)), url(img/front.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;   
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    color: black;
+    font-size: 70px;
+}
+
+h3 {
+    margin-left: 20px;
+    color: black;
+    font-size: 30px;
+}
+
+h4 {
+    color: white;
+}
+
+/* NAVABR BUTTONS */
+
+.nav-link {
+    background-color: black;
+    color: black;
+    border-color: none;
+    padding: 10px 30px;
+    font-weight: 300;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.nav-link:link,
+.nav-link:visited,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: black;
+    border-radius: 100px;
+    padding: 5px 5px;
+}
+
+.nav-link:hover,
+.nav-link:active,
+input[type=submit] {
+    background-color: #30b925;
+    padding: 5px 5px;
+}
+
+.nav-link home {
+    color: black;
+    border-color: none;
+    padding: 10px 30px;
+    font-weight: 300;
+}
+
+
+.dropdown-button {
+    margin: 5px;
+    font-size: 20px;
+    background-color: #30b925; 
+    text-align: justify;
+    color: white;
+    padding: 4px 15px;
+    border-radius: 100px;
+
+}
+
+/* DROPDOWN MENU*/
+
+.dropdown-toggle {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 0px;
+}
+
+.dropdown-menu{
+    background: rgba(45, 25, 25, .8);
+}
+
+.dropdown-menu a{
+    color: #c6c2b8;
+}
+
+/* PRODUCT DISPLAY */
+
+.bike {
+    background-image: linear-gradient(rgba(2, 2, 2, 0), rgba(2, 2, 2, 0.5)), url(img/sided.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    margin-bottom: 30%;
+}
+
+.equipment h4{
+    margin-top: 15%;   
+}
+
+.specs {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.specslist {
+    margin-top: 750px;
+    list-style-type: none;
+}
+
+.specslist li{
+    margin-right: 25px;
+}
+
+.specslist p {
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #30b925;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+}
+
+.btn:hover,
+input[type=submit] {
+    display: inline-block;
+    color: black;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:link,
+input[type=submit]:hover,
+input[type=submit]:active {
+    color: #30b925;
+
+}
+
+/* GDR TRAINING SERVICE  */
+
+.training {
+    background-image: linear-gradient(rgba(1, 2, 2, 0.1), rgba(1, 1, 5, 0.1)), url(img/training.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    background-attachment: fixe;
+}
+
+.schedule {
+    margin-top: 250px;
+    list-style-type: none;
+}
+
+/*------RACETRACK SECTION------*/
+
+.card-body {
+    background-color: black;
+}
+
+.card-header{
+    background-color: black;
+    color: aqua;
+}
+.stats {
+    list-style-type: none;
+    background-color: black;
+}
+.textvertical {
+    margin-top: 20px;
+}
+
+
+/*--------FOOTER--------*/
+
+.footerimage {
+    background-image: linear-gradient(rgba(1, 2, 2, 0.1), rgba(1, 1, 5, 0.1)), url(img/back.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.navbar-default {
+    background-color: black;
+}
+
+.navbar-nav li a {
+    color: #fff;
+    margin: 1.5em;
+}
+.footer{
+    display: inherit;
+}
+
+.sociallinks i{
+    color: #c6c2b8;
+    margin-left: 2.5em;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #20de3d;
+}
+
+
+.customerinfo{
+    width: 100%;
+}
+.customerinfo li {
+    color: #c6c2b8;
+    font-size: 0.9em;
+    list-style-type: none;
+}
+
+.models li {
+    color: #c6c2b8;
+    margin-right: 1.5em;
+    font-size: 1em;
+    list-style-type: none;
+}
+
+.footerlogo{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
+
+.links {
+    display: inline-block;
+    border-color: #30b925;
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.links:hover,
+input[type=submit] {
+    display: inline-block;
+    background-color: #30b925;
+    color: white;
+    padding: 1px;
+    text-decoration: none;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.links:link,
+input[type=submit]:hover,
+input[type=submit]:active {
+    color: #30b925;
+
+}
+
+.navlogo {
+    margin-right: 770px;
+}
+}
+
+/*OPTIONAL: ANIMATIONS----
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 2.5s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+    opacity: 1;
+}
+
+----*/
